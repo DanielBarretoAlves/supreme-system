@@ -1,0 +1,72 @@
+<! DOCTYPE html>
+<html>
+<head>
+<meta  name="viewport" content="width-device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style/home.css">
+</head>
+<body>
+
+<div class="navbar">
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">&#9776;
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Finanças</a>
+      <a href="#">Colegio</a>
+      <a href="#">Trabalho</a>
+	  <a href="#">Planos</a>
+    </div>
+  </div> 
+  <a href="#home">&#9819; Supreme-System</a>
+</div>
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Adicionar dados de Finanças</a>
+    <a href="#">Adicionar dados de Colegio</a>
+    <a href="#">Adicionar dados de Trabalho</a>
+    <a href="#">Adicionar dados de Planos</a>
+  </div>
+
+  <div class="main">
+    <h2>Dados</h2>
+    <p>O usuario ainda não possui cadastro</p>
+  </div>
+
+  <div class="right">
+    <h2>Lembrete</h2>
+    <p>Você tem um evento para proxima segunda feira de noite: Porogramar</p>
+	<h1><span>Progresso</span></h1>
+                <p>Casa </p>
+                    <progress min="0" max="100" value="80"></progress>
+                <p>Colegio </p>
+                    <progress min="0" max="100" value="50"></progress>
+                <p>Finanças </p>
+                    <progress min="0" max="100" value="30"></progress>
+					<p>Trabalho </p>
+                    <progress min="0" max="100" value="30"></progress>
+        </div>
+  </div>
+</div>
+
+<div style="background-color:#212121;text-align:center;padding:10px;margin-top:7px;">&#9819;Supreme-System</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+    var myDropdown = document.getElementById("myDropdown");
+      if (myDropdown.classList.contains('show')) {
+        myDropdown.classList.remove('show');
+      }
+  }
+}
+</script>
+</body>
+</html>
