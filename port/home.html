@@ -3,6 +3,7 @@
 <head>
 <meta  name="viewport" content="width-device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="style/home.css">
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
 </head>
 <body>
 
@@ -18,7 +19,7 @@
 	  <a href="#">Planos</a>
     </div>
   </div> 
-  <a href="#home">&#9819; Supreme-System</a>
+  <a href="#home" class="supreme">&#9819; Supreme-System</a>
 </div>
 <div style="overflow:auto">
   <div class="menu">
@@ -31,12 +32,15 @@
   <div class="main">
     <h2>Dados</h2>
     <p>O usuario ainda não possui cadastro</p>
+	<p id="test" onclick="function()">test</p>
+	
+
   </div>
 
   <div class="right">
-    <h2>Lembrete</h2>
+    <h2 class="lembrete">Lembrete</h2>
     <p>Você tem um evento para proxima segunda feira de noite: Porogramar</p>
-	<h1><span>Progresso</span></h1>
+	<h1 class="progresso"><span>Progresso</span></h1>
                 <p>Casa </p>
                     <progress min="0" max="100" value="80"></progress>
                 <p>Colegio </p>
@@ -67,6 +71,8 @@ window.onclick = function(e) {
       }
   }
 }
+
+
 </script>
 </body>
 </html>
