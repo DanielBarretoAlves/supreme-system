@@ -1,6 +1,7 @@
-$('.dn').click(function(){
-   $('link[href="Style/langStyleD"]').attr('href','langStyleD.css');
-}
+$(document).ready(function() 
+{
+   $('#mycss[rel=stylesheet]').attr('href', 'langStyleD.css');
+});
 /*
 
 <button id="original">Original</button><br />
@@ -18,4 +19,22 @@ $('#grayscale').click(function (){
 });
 $('#original').click(function (){
    $('link[href="style2.css"]').attr('href','style1.css');
-});*/
+});
+
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+<link href="style.css" rel="stylesheet" type="text/css" id="mycss" />
+
+$(document).ready(function() 
+{
+   $('#mycss[rel=stylesheet]').attr('href', 'style2.css');
+});
+
+/////////////////////////////////////////////////////////////////////////////////////~//
+
+$("button[data-theme]").click(function() {
+    $("head link#theme").attr("href", $(this).data("theme"));
+}
+
+*/
