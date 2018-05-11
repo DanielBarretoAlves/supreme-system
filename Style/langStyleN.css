@@ -76,12 +76,39 @@ body{
 }
 .top_nav_right p{
 	color:white;
+	text-align: center;
+	font-size: 25px;
 }
-@media (max-width: 700px) {
-    .en .pt {   
-        flex-direction: column;
+@media (max-width: 1000px){
+	.en{
 		width:100%;
-		font-size:20px;
-		color:green;
-    }
+		text-align:center;
+		display:inline-block;
+		font-size:50px;
+		text-decoration:none;
+		margin:4px 2px;
+		margin-bottom: 20px;
+		cursor: pointer;
+		background-color:rgb(0,0,0,0.1);
+		color:white;
+		border: 2px solid white;
+		float: right;
+		border-radius: 40px;
+	}
+	.pt{
+		width:100%;
+		text-align:center;
+		display: inline-block;
+		font-size:50px;
+		text-decoration:none;
+		margin:4px 2px;
+		margin-bottom: 20px;
+		cursor: pointer;
+		background-color:rgb(0,0,0,0.1);
+		color:white;
+		border: 2px solid white;
+		float: right;
+		border-radius: 40px;
+	}
+
 }
