@@ -1,5 +1,16 @@
 nav{
+	width:100%;
+	margin-top: 0px;
+	position: relative;
+	overflow: hidden;
 	background-color:#D50000;
+	height:60px;
+	border-radius:5px;
+	text-align:center;
+	color:white;
+	font-size:25px;
+	font-family: "Courier New", Courier, monospace;
+	font-weight:bold;
 }
 .infoColumn {
     float: left;
@@ -8,7 +19,20 @@ nav{
     height: 91%;
 	background-color:#212121;
 	color:white;
+	border-radius:5px;
 }
+
+.infoColumn h2{
+	font-size:45px;
+	text-align:center;
+}
+
+.infoColumn p {
+	font-size:20px;
+	font-family: "Courier New", Courier, monospace;
+	font-style:italic;
+}
+
 .passwordColumn{
 	float:left;
 	width:50%;
@@ -17,10 +41,40 @@ nav{
 	background-color:#FAFAFA;
 	
 }
+.passwordColumn p {
+	text-align:left;
+	font-size:20px;
+	margin:10px;
+	font-family: "Courier New", Courier, monospace;
+}
+.passwordColumn input{
+	margin:4px 2px;
+	border: 3px solid black;
+	border-radius:20px;
+	width:50%;
+}
+
+.passwordColumn button{
+	margin:4px 2px;
+	border:3px solid black;
+	border-radius:200px;
+	background-color:#D50000;
+	color:white;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.passwordColumn button:hover{
+	background-color:red;
+	text-decoration: underline;
+}	
+#demo{
+	color:red;
+}
+
 @media(max-width:1000px){
 	.infoColumn{
 		width:100%;
-		height:50%;
+
 	}
 	.passwordColumn{
 		width:100%;
