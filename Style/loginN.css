@@ -12,6 +12,10 @@ nav{
 	font-family: "Courier New", Courier, monospace;
 	font-weight:bold;
 }
+nav button{
+	float:right;
+	background-color:blue;
+}
 .infoColumn {
     float: left;
     width: 	40%;
@@ -74,7 +78,9 @@ nav{
 @media(max-width:1000px){
 	.infoColumn{
 		width:100%;
-
+	}
+	.infoColumn p{
+		font-size:15px;
 	}
 	.passwordColumn{
 		width:100%;

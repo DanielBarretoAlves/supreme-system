@@ -11,7 +11,7 @@ function myFunction() {
     if (name == "admin" && password == "password") {
 		$("#demo").css("color", "green");
 		text = "Access Granted";
-        window.location.href="langSelection.html";
+        window.location.href="homeE.html";
     } else {
         text = "Access Denied";
     }
@@ -21,4 +21,9 @@ function day(){
 	$("nav").css("backgroundColor", "#2979FF");
 	$(".infoColumn").css("backgroundColor", "#2962FF");
 	$("button").css("backgroundColor", "#2962FF");
+}
+function night(){
+	$("nav").css("backgroundColor", "red");
+	$(".infoColumn").css("backgroundColor", "black");
+	$("button").css("backgroundColor", "red");
 }
