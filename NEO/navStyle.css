@@ -19,6 +19,9 @@ nav .selectLang {
     display:block;
     float: right;
   }
+  nav .selectLang:hover{
+    background-color: #004D40;
+  }
   nav b{
     float: left;
     color: white;

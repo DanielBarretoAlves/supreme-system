@@ -1,9 +1,10 @@
 <!--DOCTYPE html -->
 <html>
 <head>
+  <link rel="stylesheet" type="text/css" href="body.css">
   <link rel="stylesheet" type="text/css" href="navStyle.css">
   <link rel="stylesheet" type="text/css" href="loginBox.css">
-  <link rel="stylesheet" type="text/css" href="body.css">
+
   <script src="loginValidation.js"></script>
 </head>
 <body>
@@ -21,8 +22,8 @@
     <br>
     <input type="password" id="password" class="password" placeholder="Search.."> <br>
     <br>
-    <input type="checkbox" onclick="myFunction()">Show Password
-    <button>Login</button>
+    <input type="checkbox" onclick="showPassword()">Show Password
+    <button id="login" class="login" onclick="login()">Login</button>
   </div>
 
 </body>
