@@ -1,0 +1,35 @@
+
+.financeBox{
+  width: 25%;
+  margin: 20px;
+  margin-left: 50px;
+  height: 80%;
+  background-color: #EEEEEE; /*200*/
+  border-radius: 20px;
+  padding: 20px;
+  display: inline-block;
+  float: left;
+}
+.scheduleBox{
+  width: 25%;
+  margin: 20px;
+  height: 80%;
+  background-color: #EEEEEE; /*200*/
+  border-radius: 20px;
+  padding: 20px;
+  display: inline-block;
+  float: left;
+}
+.remindBox{
+  width: 25%;
+  margin: 20px;
+  height: 80%;
+  background-color: #EEEEEE; /*200*/
+  border-radius: 20px;
+  padding: 20px;
+  display: inline-block;
+  float: left;
+}
+footer{
+  bottom: 0;
+}

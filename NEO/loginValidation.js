@@ -16,7 +16,7 @@ function login(){
   password = document.getElementById("password").value;
   if(password == "password" && name == "admin"){
     alert("Ta funfando");
-    window.location.href="#";
+    window.location.href="home.html";
   }else{
     alert("Error wrong Password or User Name");
   }

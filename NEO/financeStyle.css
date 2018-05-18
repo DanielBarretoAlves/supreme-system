@@ -1,0 +1,9 @@
+.progresStatus{
+  width: 70%;
+  height:20px;
+  background: yellow;
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+
+}
