@@ -1,0 +1,25 @@
+*{
+
+}
+.topHeader{
+  background-color: #3d00e0;
+  color: #d4bff9;
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius:5px;
+
+}
+.topHeader h1{
+  font-size: 30px;
+}
+.navBar{
+  background-color: #5300e8;
+  padding: 5px;
+  color: #efe5fd;
+  text-align: center;
+}
+.navBar a{
+  padding-left: 50px;
+}
