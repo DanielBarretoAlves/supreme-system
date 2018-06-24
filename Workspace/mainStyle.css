@@ -9,6 +9,23 @@
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
+.mainFootage{
+	color:#4A148C;
+	display: flex;
+}
+.leftColumn{
+	width:20%;
+	border-right: 1px solid #4A148C;
+	height:75%;
+	text-align:center;
+
+}
+.rightColumn{
+	width:80%;
+	height:75%;
+	text-align:center;
+	
+}
 .topHeader{
   background-color: #3d00e0;
   color: #d4bff9;
