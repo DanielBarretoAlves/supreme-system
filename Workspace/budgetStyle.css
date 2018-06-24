@@ -1,0 +1,22 @@
+.budget{
+	border: 1px solid #4A148C;
+	margin:5px;
+	margin-top:10px;
+
+}
+.budget th{
+	border: 1px solid #4A148C;
+	background-color: #3d00e0;
+	color: #d4bff9;
+}
+.budget td{
+	border: 1px solid #4A148C;
+	
+}
+.budget .month:hover{
+	background-color:#916eff;
+	color:#eee6ff;
+}
+.budget input{
+	width: 100%;
+}
